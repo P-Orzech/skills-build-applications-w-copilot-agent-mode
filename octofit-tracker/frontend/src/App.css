@@ -1,0 +1,137 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+
+.octofit-logo {
+  height: 60px;
+  margin-right: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #1a237e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fffde7;
+}
+
+
+.App-link {
+  color: #1976d2;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.App-link:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+
+/* Bootstrap Table Customization */
+table.table {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+table.table thead {
+  background-color: #1976d2;
+  color: #fff;
+}
+table.table tbody tr:nth-child(even) {
+  background-color: #e3f2fd;
+}
+
+/* Bootstrap Button Customization */
+.btn-primary {
+  background-color: #1976d2;
+  border-color: #1976d2;
+}
+.btn-primary:hover {
+  background-color: #0d47a1;
+  border-color: #0d47a1;
+}
+.btn-success {
+  background-color: #388e3c;
+  border-color: #388e3c;
+}
+.btn-success:hover {
+  background-color: #1b5e20;
+  border-color: #1b5e20;
+}
+.btn-secondary {
+  background-color: #607d8b;
+  border-color: #607d8b;
+}
+.btn-secondary:hover {
+  background-color: #37474f;
+  border-color: #37474f;
+}
+
+/* Headings */
+h1, .display-4 {
+  color: #1a237e;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+h5.card-title {
+  color: #1976d2;
+  font-weight: 600;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.navbar-nav .nav-link {
+  color: #e3f2fd !important;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+  color: #fffde7 !important;
+  text-shadow: 0 1px 2px #1976d2;
+}
+
+/* Card Customization */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+
+/* Modal Customization */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background-color: #1976d2;
+  color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.modal-footer {
+  background-color: #e3f2fd;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
